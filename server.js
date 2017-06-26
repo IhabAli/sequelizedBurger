@@ -31,7 +31,7 @@ app.engine(
 );
 app.set("view engine", "handlebars");
 
-var routes = require("./controllers/burgers_controller");
+var routes = require("./controllers/burger_controllers");
 
 app.use("/", routes);
 app.use("/update", routes);
